@@ -17,8 +17,8 @@ It’s best to use a **virtual environment** to keep your dependencies isolated.
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/NoeFlandre/FirstRAG.git
+cd FirstRAG
 ```
 
 ### 2. Create a Virtual Environment
