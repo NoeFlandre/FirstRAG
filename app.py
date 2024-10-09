@@ -51,8 +51,6 @@ if uploaded_file:
                 else:
                     st.warning("No relevant information found. Please try a different question.")
 
-    except StreamlitAPIException as e:
-        st.error(f"An error occurred: {str(e)}")
     except Exception as e:
         st.error(f"Something went wrong while processing the document: {str(e)}")
 else:
