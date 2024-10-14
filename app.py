@@ -1,5 +1,7 @@
 import streamlit as st
 import os
+os.environ["PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION"] = "python"
+
 from functions import load_pdf, split_documents, create_vectorstore, query_relevant_data_openai, query_relevant_data, \
     create_embeddings, create_embeddings_openai
 
